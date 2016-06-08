@@ -4,11 +4,23 @@
 [hub]
         protocol = https
 [alias]
+        ll   = log --pretty=oneline --decorate --abbrev-commit --max-count=20
+        la   = log --max-count=20 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
+        wip  = !git add -u && git commit -m ...
+        wipc = !date >> WIP && git add WIP && git commit -m ...
+        fp = format-patch --stdout
+        bv = !git branch --color -v | cut -c1-100
+        s  = status -sb -uno --ignore-submodules=untracked
+        sa = status -sb --ignore-submodules=untracked
+        st = status
+        ci = commit
+        br = branch
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
-        count   = !git shortlog -sn
+        df = diff
+        ps = push
+        pl = pull --rebase
+[branch]
+        autosetupmerge = true
 [color]
         diff = auto
         status = auto
@@ -17,10 +29,18 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+        filemode = true
+        logallrefupdates = true
+        whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[help]
+        browser = open
 [apply]
         whitespace = nowarn
 [mergetool]
         keepBackup = false
+[diff]
+        renames = copies
+        mnemonicprefix = true
 [difftool]
         prompt = false
 [help]
