@@ -4,6 +4,8 @@ tap 'homebrew/bundle'
 
 tap 'homebrew/versions'
 
+tap 'tsuru/homebrew-tsuru'
+
 brew 'ack'
 brew 'coreutils'
 brew 'go'
@@ -22,6 +24,7 @@ brew 'redis'
 brew 'mongodb'
 brew 'watchman'
 brew 'flow'
+brew 'tsuru'
 
 
 cask 'atom'
