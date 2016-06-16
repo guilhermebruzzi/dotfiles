@@ -37,3 +37,5 @@ cask 'android-studio'
 cask 'virtualbox'
 cask 'sequel-pro'
 cask 'spotify'
+cask 'charles'
+
