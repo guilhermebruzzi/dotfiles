@@ -38,4 +38,5 @@ cask 'virtualbox'
 cask 'sequel-pro'
 cask 'spotify'
 cask 'charles'
+cask 'mongohub'
 
