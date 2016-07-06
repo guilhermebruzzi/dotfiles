@@ -44,6 +44,8 @@
     promptWhenFileHasChangedOnDisk: false
   "go-plus":
     goPath: "/Users/holman/Code/go"
+  linter:
+    errorPanelHeight: 27
   nuclide:
     "nuclide-home":
       showHome: false

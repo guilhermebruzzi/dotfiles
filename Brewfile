@@ -25,6 +25,7 @@ brew 'mongodb'
 brew 'watchman'
 brew 'flow'
 brew 'tsuru'
+brew 'ag'
 
 
 cask 'atom'
