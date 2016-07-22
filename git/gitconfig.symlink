@@ -51,3 +51,6 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+	email = guibruzzi@gmail.com
+	name = Guilherme Bruzzi
