@@ -1,4 +1,5 @@
 if test ! $(which spoof)
 then
-  sudo npm install spoof -g
+  npm install spoof babel gulp npmrc rnpm webpack-dev-server bower npm react-native-cli webpack -g
 fi
+
