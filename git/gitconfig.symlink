@@ -27,7 +27,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+        excludesfile = /Users/guilhermebruzzi/.gitignore_global
         editor = vim
         filemode = true
         logallrefupdates = true
