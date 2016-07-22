@@ -27,7 +27,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+        excludesfile = /Users/guilhermebruzzi/.gitignore_global
         editor = vim
         filemode = true
         logallrefupdates = true
@@ -51,3 +51,6 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+        email = guibruzzi@gmail.com
+        name = Guilherme Bruzzi
