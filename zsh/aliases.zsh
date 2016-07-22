@@ -1,3 +1,9 @@
+alias zshconfig="atom ~/.zshrc"
+alias ohmyzsh="atom ~/.oh-my-zsh"
+alias dotfiles="cd ~/.dotfiles"
+
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
 alias reload!='. ~/.zshrc'
 
 alias cls='clear' # Good 'ol Clear Screen command
