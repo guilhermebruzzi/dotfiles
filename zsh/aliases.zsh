@@ -26,7 +26,3 @@ alias mkve34='mkvirtualenv --no-site-packages --python=/usr/local/bin/python3.4'
 alias setup='pip install -e . --no-deps'
 
 alias simplehttpserver='python -m SimpleHTTPServer 8080'
-
-#projetos
-alias bsnapp='cd ~/projetos/globo-apps/bsn-app-home/'
-alias cdn='workon framework-navegacao-cdn; cd ~/projetos/framework-navegacao-cdn/'
