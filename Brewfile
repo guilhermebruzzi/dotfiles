@@ -26,6 +26,7 @@ brew 'watchman'
 brew 'flow'
 brew 'tsuru'
 brew 'ag'
+brew 'heroku'
 
 
 cask 'atom'
