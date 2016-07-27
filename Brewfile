@@ -40,4 +40,5 @@ cask 'sequel-pro'
 cask 'spotify'
 cask 'charles'
 cask 'mongohub'
+cask 'skype'
 
