@@ -27,6 +27,7 @@ brew 'flow'
 brew 'tsuru'
 brew 'ag'
 brew 'heroku'
+brew 'android-ndk'
 
 
 cask 'atom'
