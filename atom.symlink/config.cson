@@ -44,8 +44,11 @@
     promptWhenFileHasChangedOnDisk: false
   "go-plus":
     goPath: "/Users/holman/Code/go"
+  "ide-flow":
+    flowPath: "/usr/local/bin/flow"
   linter:
-    errorPanelHeight: 27
+    errorPanelHeight: 22
+  "linter-eslint": {}
   nuclide:
     "nuclide-home":
       showHome: false
