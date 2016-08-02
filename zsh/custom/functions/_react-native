@@ -1,0 +1,19 @@
+#compdef react-native
+#autoload
+
+_react_native_get_commands() {
+    local -a commands
+    local tasks
+
+    tasks=$(react-native 2> /dev/null | awk -F ' ' 'match($0, /^[ ]/) { if (!match($0, /(  help  |This command was removed)/)) { printf "%s",$2; for(i=3; i<=NF; i++) { printf "%s ",$i }; printf "\n" } }')
+    commands=("${(f)tasks}")
+
+    _describe 'React Native Cli commands' commands
+}
+
+_react_native() {
+  _arguments \
+    "1: :_react_native_get_commands"
+}
+
+_react_native "$@"
