@@ -71,6 +71,9 @@ defaults write com.apple.terminal StringEncodings -array 4
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
+# Scroll events as up/down keys when the terminal is in the "alternate screen" mode used by programs like less, vim, emacs, etc.
+defaults write com.googlecode.iterm2 AlternateMouseScroll -bool true
+
 # Enable the WebKit Developer Tools in the Mac App Store
 defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 
