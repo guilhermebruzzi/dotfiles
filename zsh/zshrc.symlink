@@ -121,5 +121,5 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK
 export USE_GLOBAL_ADK=t
 
 #nvm
-export NVM_DIR="/Users/guilhermebruzzi/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
