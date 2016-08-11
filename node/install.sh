@@ -1,9 +1,8 @@
-if test ! $(which spoof)
+if ! command -v spoof 2>/dev/null; then
 then
-  npm install spoof babel gulp npmrc rnpm webpack-dev-server bower npm react-native-cli webpack npm-check -g
+  cat npm_requirements.txt | xargs npm install -g
 fi
 
-if test ! $(which nvm)
-then
+if ! command -v nvm 2>/dev/null; then
   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
 fi
