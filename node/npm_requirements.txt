@@ -10,3 +10,4 @@ react-native-cli
 webpack
 npm-check
 code-push-cli
+flow-bin@0.25.0
