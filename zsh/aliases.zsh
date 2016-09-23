@@ -8,6 +8,8 @@ alias reload!='. ~/.zshrc'
 
 alias cls='clear' # Good 'ol Clear Screen command
 
+alias myip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\   -f2  | awk "NR==1{print $1}"'
+
 alias ipip='pip install -i http://artifactory.globoi.com/artifactory/api/pypi/pypi-all/simple --trusted-host artifactory.globoi.com'
 
 alias flushdns='dscacheutil -flushcache'
