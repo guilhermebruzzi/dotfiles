@@ -6,6 +6,7 @@
       "source.ini": [
         ".buckconfig"
         ".flowconfig"
+        ".hgrc"
       ]
       "source.json": [
         ".arcconfig"
@@ -40,8 +41,6 @@
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-  "file-watcher":
-    promptWhenFileHasChangedOnDisk: false
   "go-plus":
     goPath: "/Users/holman/Code/go"
   "ide-flow":
