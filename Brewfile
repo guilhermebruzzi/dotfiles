@@ -28,6 +28,7 @@ brew 'tsuru'
 brew 'ag'
 brew 'heroku'
 brew 'android-ndk'
+brew 'gnu-tar'
 
 
 cask 'atom'
