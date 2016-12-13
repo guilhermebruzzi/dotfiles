@@ -29,6 +29,7 @@ brew 'ag'
 brew 'heroku'
 brew 'android-ndk'
 brew 'gnu-tar'
+brew 'jq'
 
 
 cask 'atom'
