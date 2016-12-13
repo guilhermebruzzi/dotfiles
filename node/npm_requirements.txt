@@ -3,11 +3,13 @@ babel
 gulp
 npmrc
 rnpm
+webpack
 webpack-dev-server
 bower
 npm
 react-native-cli
-webpack
 npm-check
 code-push-cli
-flow-bin@0.25.0
+flow-bin
+yarn
+egghead-downloader
