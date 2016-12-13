@@ -20,6 +20,7 @@
       "exception-reporting"
       "metrics"
       "tree-view"
+      "ide-flow"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -31,6 +32,7 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "unity-ui"
       "glacier-syntax"
@@ -48,6 +50,8 @@
     errorPanelHeight: 22
   "linter-eslint": {}
   nuclide:
+    "nuclide-flow":
+      pathToFlow: "/usr/local/bin/flow"
     "nuclide-home":
       showHome: false
   "release-notes":
