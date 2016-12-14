@@ -16,52 +16,25 @@
         "BUCK"
       ]
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
       "tree-view"
       "ide-flow"
     ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
     telemetryConsent: "limited"
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
   editor:
-    fontFamily: "Menlo"
     invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
+  "exception-reporting":
+    userId: "ad4701ec-8b14-3b1f-0795-104a3de26797"
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
   linter:
-    errorPanelHeight: 22
+    errorPanelHeight: 26
   "linter-eslint": {}
   nuclide:
     "nuclide-flow":
+      canUseFlowBin: true
+      enableStructuredTypeHints: true
       pathToFlow: "/usr/local/bin/flow"
     "nuclide-home":
       showHome: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
   welcome:
     showOnStartup: false
