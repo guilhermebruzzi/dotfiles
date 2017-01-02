@@ -46,4 +46,6 @@ cask 'spotify'
 cask 'charles'
 cask 'mongohub'
 cask 'skype'
-
+cask 'flux'
+cask 'clipmenu'
+cask 'caffeine'
