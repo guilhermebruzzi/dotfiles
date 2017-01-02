@@ -1,1 +1,1 @@
-apm install --packages-file packages.list
+apm install --packages-file ./atom/packages.list

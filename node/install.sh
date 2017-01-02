@@ -1,5 +1,5 @@
 if ! command -v spoof 2>/dev/null; then
-  cat npm_requirements.txt | xargs npm install -g
+  cat ./node/npm_requirements.txt | xargs npm install -g
 fi
 
 if ! command -v nvm 2>/dev/null; then
