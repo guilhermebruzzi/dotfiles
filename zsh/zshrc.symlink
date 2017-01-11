@@ -116,6 +116,7 @@ export LANG=en_US.UTF-8
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_NDK=/usr/local/opt/android-ndk
 export ANDROID_NDK_HOME=/usr/local/opt/android-ndk
+export NDK_MODULE_PATH=/usr/local/opt/android-ndk
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK
 
