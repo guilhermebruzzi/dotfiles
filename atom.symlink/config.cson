@@ -17,7 +17,6 @@
       ]
     disabledPackages: [
       "tree-view"
-      "ide-flow"
     ]
     telemetryConsent: "limited"
   editor:
@@ -30,6 +29,10 @@
     errorPanelHeight: 26
   "linter-eslint": {}
   nuclide:
+    installRecommendedPackages: true
+    "nuclide-buck": {}
+    "nuclide-file-tree":
+      revealFileOnSwitch: true
     "nuclide-flow":
       canUseFlowBin: true
       enableStructuredTypeHints: true
