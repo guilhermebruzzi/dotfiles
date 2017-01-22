@@ -33,3 +33,13 @@
 
 'atom-text-editor[data-grammar="JavaScript"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor':
+  'ctrl-cmd-o': 'narrow:fold'
+  'ctrl-cmd-O': 'narrow:symbols'
+  'ctrl-cmd-l': 'narrow:lines'
+  'ctrl-cmd-L': 'narrow:lines-by-current-word'
+  'ctrl-cmd-s': 'narrow:search-current-project'
+  'ctrl-cmd-S': 'narrow:search-by-current-word'
+  'ctrl-cmd-G': 'narrow:git-diff'
+  'ctrl-cmd-B': 'narrow:bookmarks'

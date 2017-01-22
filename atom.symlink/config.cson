@@ -39,5 +39,7 @@
       pathToFlow: "/usr/local/bin/flow"
     "nuclide-home":
       showHome: false
+  "tool-bar":
+    visible: false
   welcome:
     showOnStartup: false
