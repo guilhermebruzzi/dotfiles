@@ -5,3 +5,5 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+echo "RUN sudo scutil --set HostName <new name> ON THE TERMINAL"
