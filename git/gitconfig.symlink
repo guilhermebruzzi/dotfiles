@@ -21,6 +21,8 @@
         pl = pull --rebase
 [branch]
         autosetupmerge = true
+[branch "master"]
+    mergeoptions = --no-ff
 [color]
         diff = auto
         status = auto
