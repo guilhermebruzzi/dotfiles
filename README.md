@@ -23,11 +23,11 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-rm ~/.profile ~/.bashrc # Check any file in home that have a config
 git clone https://github.com/guilhermebruzzi/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 chsh -s /bin/zsh # link new zsh shell
+rm ~/.profile ~/.bashrc ~/.zprofile # Check any file in home that have a config other than your ~/.zshrc
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
