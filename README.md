@@ -41,6 +41,8 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+Rename your mac on terminal like `osx/install.sh` says.
+
 ## thanks
 
 I forked [holman](http://github.com/holman)' excellent
