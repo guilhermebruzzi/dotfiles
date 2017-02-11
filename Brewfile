@@ -29,6 +29,7 @@ brew 'ag'
 brew 'heroku'
 brew 'gnu-tar'
 brew 'jq'
+brew 'highlight'
 
 
 cask 'atom'

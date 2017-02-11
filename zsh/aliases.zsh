@@ -4,6 +4,9 @@ alias dotfiles="cd ~/.dotfiles"
 
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
+# highlight to keynote
+alias highlight_to_keynote='pbpaste | highlight --syntax=js -O rtf | pbcopy'
+
 alias reload!='. ~/.zshrc'
 
 alias cls='clear' # Good 'ol Clear Screen command
