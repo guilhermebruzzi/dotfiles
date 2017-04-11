@@ -30,6 +30,7 @@ brew 'heroku'
 brew 'gnu-tar'
 brew 'jq'
 brew 'highlight'
+brew 'mosquitto'
 
 
 cask 'atom'
