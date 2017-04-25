@@ -23,6 +23,8 @@
         autosetupmerge = true
 [branch "master"]
     mergeoptions = --no-ff
+[branch "beta"]
+    mergeoptions = --no-ff
 [color]
         diff = auto
         status = auto
