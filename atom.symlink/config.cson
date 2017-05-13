@@ -41,6 +41,13 @@
       pathToFlow: "/usr/local/bin/flow"
     "nuclide-home":
       showHome: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      singleQuote: true
+      trailingComma: "es5"
+    useEslint: true
   "tool-bar":
     visible: false
   welcome:
