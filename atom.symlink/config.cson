@@ -25,14 +25,16 @@
     userId: "ad4701ec-8b14-3b1f-0795-104a3de26797"
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
-  linter:
-    errorPanelHeight: 26
+  linter: {}
   "linter-eslint": {}
+  "linter-ui-default":
+    decorateOnTreeView: "None"
   nuclide:
     installRecommendedPackages: true
     "nuclide-buck": {}
     "nuclide-file-tree":
       revealFileOnSwitch: true
+      showUncommittedChanges: false
     "nuclide-flow":
       canUseFlowBin: true
       enableStructuredTypeHints: true

@@ -1,10 +1,12 @@
 emmet
+language-graphql
 last-cursor-position
 linter
 linter-eslint
+linter-ui-default
 markdown-preview-plus
 multi-cursor
-nuclide
-tabs-to-spaces
-language-graphql
 narrow
+nuclide
+prettier-atom
+tabs-to-spaces
