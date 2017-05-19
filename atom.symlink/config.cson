@@ -42,8 +42,7 @@
     "nuclide-home":
       showHome: false
   "prettier-atom":
-    formatOnSaveOptions:
-      enabled: true
+    formatOnSaveOptions: {}
     prettierOptions:
       singleQuote: true
       trailingComma: "es5"
