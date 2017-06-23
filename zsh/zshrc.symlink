@@ -55,7 +55,7 @@ plugins=(git rvm python virtualenvwrapper npm zsh-completions zsh-autosuggestion
 
 # User configuration
 
-export PATH="$PATH:./bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$ZSH/bin:$HOME/.dotfiles/bin:$HOME/.rvm/bin"
+export PATH="$PATH:./bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$ZSH/bin:$HOME/.dotfiles/bin:$HOME/.rvm/bin:$HOME/Library/Python/2.7/bin"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
