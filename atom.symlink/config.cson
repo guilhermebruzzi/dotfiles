@@ -1,4 +1,6 @@
 "*":
+  "atom-package-deps":
+    ignored: []
   autosave:
     enabled: true
   core:
@@ -27,14 +29,11 @@
     flowPath: "/usr/local/bin/flow"
   linter: {}
   "linter-eslint": {}
-  "linter-ui-default":
-    decorateOnTreeView: "None"
   nuclide:
     installRecommendedPackages: true
     "nuclide-buck": {}
     "nuclide-file-tree":
       revealFileOnSwitch: true
-      showUncommittedChanges: false
     "nuclide-flow":
       canUseFlowBin: true
       enableStructuredTypeHints: true
@@ -42,10 +41,6 @@
     "nuclide-home":
       showHome: false
   "prettier-atom":
-    formatOnSaveOptions: {}
-    prettierOptions:
-      singleQuote: true
-      trailingComma: "es5"
     useEslint: true
   "tool-bar":
     visible: false
