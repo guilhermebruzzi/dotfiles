@@ -5,7 +5,7 @@
         protocol = https
 [alias]
         ll   = log --pretty=oneline --decorate --abbrev-commit --max-count=20
-        la   = log --max-count=20 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
+        la   = log --max-count=25 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
         wip  = !git add -u && git commit -m ...
         wipc = !date >> WIP && git add WIP && git commit -m ...
         fp = format-patch --stdout
