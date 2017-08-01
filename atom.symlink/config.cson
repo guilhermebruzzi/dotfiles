@@ -29,6 +29,9 @@
     flowPath: "/usr/local/bin/flow"
   linter: {}
   "linter-eslint": {}
+  "linter-ui-default":
+    decorateOnTreeView: "None"
+    panelHeight: 69
   nuclide:
     installRecommendedPackages: true
     "nuclide-buck": {}
