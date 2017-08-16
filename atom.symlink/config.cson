@@ -30,7 +30,6 @@
   linter: {}
   "linter-eslint": {}
   "linter-ui-default":
-    decorateOnTreeView: "None"
     panelHeight: 69
   nuclide:
     installRecommendedPackages: true
