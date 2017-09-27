@@ -15,3 +15,5 @@ yarn
 egghead-downloader
 create-react-app
 yo
+typescript
+ts-node
