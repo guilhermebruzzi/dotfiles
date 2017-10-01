@@ -3,3 +3,4 @@ sudo pip install virtualenv
 sudo pip install pbr
 sudo pip install --no-deps stevedore
 sudo pip install --no-deps virtualenvwrapper
+pip install -r ./python/requirements.txt
