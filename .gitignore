@@ -9,6 +9,7 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 atom.symlink/github.cson
+atom.symlink/recovery
 
 zsh/custom/plugins/*
 
