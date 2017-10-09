@@ -19,3 +19,27 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+'.source.js':
+  'React Component':
+    prefix: 'reactComp'
+    "body": """
+      import React, { Component } from 'react'
+      import PropTypes from 'prop-types'
+
+      class ${1:${TM_FILENAME/(.*)\\.js/${1:/capitalize}/}} extends Component {
+        render() {
+          return (
+            ${3}
+          )
+        }
+      }
+
+      ${1:${TM_FILENAME/(.*)\\.js/${1:/capitalize}/}}.propTypes = {
+        ${2}
+      }
+
+      export default ${1:${TM_FILENAME/(.*)\\.js/${1:/capitalize}/}}
+    """
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log(\'$1\')'
