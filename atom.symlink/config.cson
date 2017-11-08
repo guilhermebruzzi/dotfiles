@@ -17,9 +17,6 @@
       "source.python": [
         "BUCK"
       ]
-    disabledPackages: [
-      "tree-view"
-    ]
     telemetryConsent: "limited"
   editor:
     invisibles: {}
