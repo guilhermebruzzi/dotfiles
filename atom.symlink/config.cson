@@ -17,6 +17,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "linter"
+    ]
     telemetryConsent: "limited"
   editor:
     invisibles: {}
