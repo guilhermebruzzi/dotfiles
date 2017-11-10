@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Usage: pod <pode_name>
+pod () {
+	if [ -z "$1" ]; then
+		echo "No param '$1' passed for pod name"
+    else
+        kubectl --namespace=vtexio exec -ti $1 -- /bin/sh
+    fi
+}
