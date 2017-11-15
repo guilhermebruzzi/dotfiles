@@ -19,6 +19,7 @@
       ]
     disabledPackages: [
       "linter"
+      "tree-view"
     ]
     telemetryConsent: "limited"
   editor:

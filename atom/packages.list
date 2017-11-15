@@ -30,4 +30,5 @@ prettier-atom
 set-syntax
 sort-lines
 tabs-to-spaces
+teletype
 tool-bar
