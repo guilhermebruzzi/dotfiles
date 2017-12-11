@@ -13,6 +13,8 @@ alias cls='clear' # Good 'ol Clear Screen command
 
 alias myip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\   -f2  | awk "NR==1{print $1}"'
 
+alias flushgit="git checkout master && git branch --merged | egrep -v '(^\*|master|dev)' | xargs git branch -D"
+
 alias flushdns='dscacheutil -flushcache'
 
 alias mongodb='sudo mongod'
