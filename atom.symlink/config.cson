@@ -44,6 +44,11 @@
     "nuclide-home":
       showHome: false
   "prettier-atom":
+    prettierOptions:
+      jsxBracketSameLine: true
+      semi: false
+      singleQuote: true
+      trailingComma: "all"
     useEslint: true
   "tool-bar":
     visible: false
