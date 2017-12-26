@@ -32,3 +32,5 @@ alias mkve35='mkvirtualenv --no-site-packages --python=/usr/local/bin/python3.5'
 alias setup='pip install -e . --no-deps'
 
 alias simplehttpserver='python -m SimpleHTTPServer 8080'
+
+alias conflicts='atom $(git diff --name-only | uniq)'
