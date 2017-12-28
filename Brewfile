@@ -6,6 +6,8 @@ tap 'homebrew/versions'
 
 tap 'tsuru/homebrew-tsuru'
 
+tap 'denji/nginx'
+
 brew 'ack'
 brew 'coreutils'
 brew 'go'
@@ -31,6 +33,7 @@ brew 'gnu-tar'
 brew 'jq'
 brew 'highlight'
 brew 'mosquitto'
+brew 'nginx-full', args: ["with-sub"]
 
 
 cask 'atom'
