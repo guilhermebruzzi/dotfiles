@@ -129,6 +129,9 @@ export USE_GLOBAL_ADK=t
 export GOPATH=$PROJECTS/go
 export PATH="$GOPATH/bin:$PATH"
 
+# Docker
+export DOCKER_ID_USER="guilhermebruzzi"
+
 #nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
