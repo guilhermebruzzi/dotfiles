@@ -8,6 +8,7 @@ tap 'tsuru/homebrew-tsuru'
 
 tap 'denji/nginx'
 
+brew 'python'
 brew 'ack'
 brew 'coreutils'
 brew 'go'
