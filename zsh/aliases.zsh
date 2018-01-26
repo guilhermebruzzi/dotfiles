@@ -34,3 +34,5 @@ alias setup='pip install -e . --no-deps'
 alias simplehttpserver='python -m SimpleHTTPServer 8080'
 
 alias conflicts='atom $(git diff --name-only | uniq)'
+
+alias vtexwork='npm install -g vtex && vtex workspace reset && vtex install vtex.builder-hub && vtex link --verbose'
