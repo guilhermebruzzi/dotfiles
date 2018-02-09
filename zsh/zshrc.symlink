@@ -47,6 +47,16 @@ ZSH_THEME="agnoster"
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$HOME/.dotfiles/zsh/custom
 
+# python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Use python from brew
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python/libexec/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+source /usr/local/bin/virtualenvwrapper.sh
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -106,14 +116,6 @@ export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 export LDFLAGS="$LDFLAGS -L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="$CPPFLAGS -I/usr/local/opt/icu4c/include"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/icu4c/lib/pkgconfig"
-
-# python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Use python from brew
-export WORKON_HOME=$HOME/.virtualenvs
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
 
 # Android
 export ANDROID_HOME=$HOME/Library/Android/sdk
