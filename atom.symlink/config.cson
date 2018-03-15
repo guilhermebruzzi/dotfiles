@@ -4,11 +4,18 @@
   autosave:
     enabled: true
   core:
+    ignoredNames: [
+      ".git"
+      "node_modules"
+    ]
     customFileTypes:
       "source.ini": [
         ".buckconfig"
         ".flowconfig"
         ".hgrc"
+      ]
+      "source.js": [
+        ".snap"
       ]
       "source.json": [
         ".arcconfig"
