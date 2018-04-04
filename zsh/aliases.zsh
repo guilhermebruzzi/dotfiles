@@ -35,4 +35,4 @@ alias simplehttpserver='python -m SimpleHTTPServer 8080'
 
 alias conflicts='atom $(git diff --name-only | uniq)'
 
-alias vtexwork='npm install -g vtex && vtex workspace reset && vtex install vtex.builder-hub && vtex link --verbose'
+alias vtexwork='npm install -g vtex && vtex workspace reset && vtex config set env prod && vtex install vtex.builder-hub vtex.checkout vtex.asset-server vtex.sse-server && vtex link --verbose'
