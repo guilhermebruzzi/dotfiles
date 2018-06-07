@@ -23,6 +23,8 @@
     disabledPackages: [
       "linter"
       "tree-view"
+      "markdown-preview"
+      "image-view"
     ]
     ignoredNames: [
       ".git"
