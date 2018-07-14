@@ -17,3 +17,4 @@ create-react-app
 yo
 typescript
 ts-node
+nodemon
