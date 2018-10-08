@@ -18,3 +18,4 @@ yo
 typescript
 ts-node
 nodemon
+babel-node-cli
