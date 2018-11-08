@@ -36,3 +36,5 @@ alias simplehttpserver='python -m SimpleHTTPServer 8080'
 alias conflicts='atom $(git diff --name-only | uniq)'
 
 alias vtexwork='npm install -g vtex && vtex workspace reset -y && vtex config set env prod && vtex link --verbose'
+
+alias sickrage-run='cd /Applications/SickRage && python /Applications/SickRage/SiCKRAGE.py -p 8091'
