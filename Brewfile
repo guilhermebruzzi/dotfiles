@@ -34,6 +34,7 @@ brew 'gnu-tar'
 brew 'jq'
 brew 'highlight'
 brew 'mosquitto'
+brew 'git-extras'
 brew 'nginx-full', args: ["with-sub"]
 
 

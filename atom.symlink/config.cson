@@ -25,6 +25,7 @@
       "tree-view"
       "markdown-preview"
       "image-view"
+      "git-diff"
     ]
     ignoredNames: [
       ".git"
