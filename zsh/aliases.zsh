@@ -1,5 +1,5 @@
-alias zshconfig="atom ~/.zshrc"
-alias ohmyzsh="atom ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
 alias dotfiles="cd ~/.dotfiles"
 
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
@@ -33,7 +33,7 @@ alias setup='pip install -e . --no-deps'
 
 alias simplehttpserver='python -m SimpleHTTPServer 8080'
 
-alias conflicts='atom $(git diff --name-only | uniq)'
+alias conflicts='code $(git diff --name-only | uniq)'
 
 alias vtexwork='npm install -g vtex && vtex workspace reset -y && vtex config set env prod && vtex link --verbose'
 
