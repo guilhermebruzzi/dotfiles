@@ -24,8 +24,6 @@ markdown-preview-plus
 merge-conflicts
 multi-cursor
 narrow
-nuclide
-nuclide-format-js
 prettier-atom
 set-syntax
 sort-lines
