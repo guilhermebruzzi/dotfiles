@@ -1,11 +1,10 @@
 spoof
-babel
+babel-cli
 gulp
 npmrc
 rnpm
 webpack
 webpack-dev-server
-bower
 npm
 react-native-cli
 npm-check
@@ -18,4 +17,3 @@ yo
 typescript
 ts-node
 nodemon
-babel-node-cli
