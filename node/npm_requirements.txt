@@ -17,3 +17,5 @@ yo
 typescript
 ts-node
 nodemon
+vtex
+releasy
