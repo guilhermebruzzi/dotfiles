@@ -24,6 +24,7 @@ export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql56/5.6.27/lib
 
 alias ipypilocal-send='python ./setup.py sdist upload -r ipypi-local'
 
+alias mkve='mkvirtualenv --no-site-packages'
 alias mkve27='mkvirtualenv --no-site-packages --python=/usr/bin/python2.7'
 alias mkve33='mkvirtualenv --no-site-packages --python=/usr/local/bin/python3.3'
 alias mkve34='mkvirtualenv --no-site-packages --python=/usr/local/bin/python3.4'
