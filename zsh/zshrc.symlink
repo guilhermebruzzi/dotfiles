@@ -49,7 +49,7 @@ ZSH_CUSTOM=$HOME/.dotfiles/zsh/custom
 
 # python
 export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Use python from brew
-export PYTHONPATH="$HOME/projetos/others/pypersonalfin:$PYTHONPATH"
+export PYTHONPATH="$HOME/projetos/others/pypersonalfin:$HOME/projetos/others/pypersonalfin/pypersonalfin:$PYTHONPATH"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python/libexec/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
