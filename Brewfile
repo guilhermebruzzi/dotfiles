@@ -6,6 +6,8 @@ tap 'heroku/brew'
 
 tap 'denji/nginx'
 
+tap 'mongodb/brew'
+
 brew 'python'
 brew 'ack'
 brew 'coreutils'
@@ -22,7 +24,7 @@ brew 'wget'
 brew 'mysql'
 brew 'git'
 brew 'redis'
-brew 'mongodb'
+brew 'mongodb-community'
 brew 'watchman'
 brew 'flow'
 brew 'ag'

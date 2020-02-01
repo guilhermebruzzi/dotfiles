@@ -45,6 +45,8 @@ this script in `bin/`.
 
 Rename your mac on terminal like `osx/install.sh` says.
 
+On your vscode download Settings Sync, mark auto-download and auto-upload settings and restart vscode
+
 ## thanks
 
 I forked [holman](http://github.com/holman)' excellent
