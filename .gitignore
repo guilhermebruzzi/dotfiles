@@ -10,6 +10,10 @@ atom.symlink/storage
 atom.symlink/themes
 atom.symlink/github.cson
 atom.symlink/recovery
+atom.symlink/.atom-socket-*
+
+# Always get latest versions
+Brewfile.lock.json
 
 zsh/custom/plugins/*
 
