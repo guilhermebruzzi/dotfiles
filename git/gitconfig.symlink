@@ -24,7 +24,9 @@
 [branch "master"]
     mergeoptions = --no-ff
 [branch "beta"]
-    mergeoptions = --no-ff
+    mergeoptions = --no-ff --no-edit
+[branch "dev"]
+    mergeoptions = --no-ff --no-edit
 [color]
         diff = auto
         status = auto
