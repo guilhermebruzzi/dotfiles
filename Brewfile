@@ -8,6 +8,8 @@ tap 'denji/nginx'
 
 tap 'mongodb/brew'
 
+tap 'AdoptOpenJDK/openjdk'
+
 brew 'python'
 brew 'ack'
 brew 'coreutils'
@@ -77,3 +79,4 @@ cask 'java'
 cask 'kap'
 cask 'discord'
 cask 'user-engine'
+cask 'adoptopenjdk/openjdk/adoptopenjdk8'
