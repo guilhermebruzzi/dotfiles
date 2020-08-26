@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Usage: pod <pode_name>
-pod () {
+kubepod () {
 	if [ -z "$1" ]; then
 		echo "No param '$1' passed for pod name"
     else
