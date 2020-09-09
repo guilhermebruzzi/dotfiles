@@ -19,7 +19,7 @@ alias flushdns='dscacheutil -flushcache'
 
 alias mongodb='sudo mongod'
 
-export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql56/5.6.27/lib
+# export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql56/5.6.27/lib
 # export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql/5.7.9/lib
 
 alias ipypilocal-send='python ./setup.py sdist upload -r ipypi-local'
