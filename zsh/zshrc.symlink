@@ -120,11 +120,8 @@ export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/icu4c/lib/pkgconfig"
 
 # Android
 export ANDROID_HOME=$HOME/Library/Android/sdk
-export ANDROID_NDK=/usr/local/opt/android-ndk
-export ANDROID_NDK_HOME=/usr/local/opt/android-ndk
-export NDK_MODULE_PATH=/usr/local/opt/android-ndk
 export ANDROID_SDK=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # Meteor config
 export USE_GLOBAL_ADK=t
