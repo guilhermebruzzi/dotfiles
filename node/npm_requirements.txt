@@ -6,7 +6,7 @@ rnpm
 webpack
 webpack-dev-server
 npm
-react-native-cli
+@react-native-community/cli
 npm-check
 code-push-cli
 flow-bin
