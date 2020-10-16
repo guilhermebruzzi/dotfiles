@@ -6,6 +6,7 @@
 [alias]
         ll   = log --pretty=oneline --decorate --abbrev-commit --max-count=20
         la   = log --max-count=40 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
+        la2   = log --max-count=80 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
         wip  = !git add -u && git commit -m ...
         wipc = !date >> WIP && git add WIP && git commit -m ...
         fp = format-patch --stdout
