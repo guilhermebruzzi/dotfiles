@@ -48,7 +48,7 @@ ZSH_THEME="agnoster"
 ZSH_CUSTOM=$HOME/.dotfiles/zsh/custom
 
 # python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Use python from brew
+export PATH="/usr/local/opt/python/libexec/bin:$HOME/Library/Python/3.7/bin:$PATH" # Use python from brew
 export PYTHONPATH="$HOME/projetos/others/pypersonalfin:$HOME/projetos/others/pypersonalfin/pypersonalfin:$PYTHONPATH"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python/libexec/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
