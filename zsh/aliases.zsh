@@ -44,3 +44,6 @@ alias sickrage-run='cd /Applications/SickRage && python /Applications/SickRage/S
 alias y='yarn'
 alias ya='yarn add'
 alias yag='yarn global add'
+alias ys='yarn start'
+alias yj='yarn jest'
+alias yt='yarn test'
