@@ -6,4 +6,5 @@
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
 
-echo "RUN sudo scutil --set HostName <new name> ON THE TERMINAL TO RENAME YOUR MAC"
+echo "RUNNING sudo scutil --set HostName macprobruzzi ON THE TERMINAL TO RENAME YOUR MAC"
+sudo scutil --set HostName macprobruzzi
