@@ -61,3 +61,5 @@
 [user]
 	email = guibruzzi@gmail.com
 	name = Guilherme Bruzzi
+[init]
+	defaultBranch = main
