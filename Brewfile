@@ -37,6 +37,7 @@ brew 'mosquitto'
 brew 'git-extras'
 brew 'awscli'
 brew 'awsebcli'
+brew 'gpg'
 brew 'nginx-full', args: ["with-sub"]
 
 
