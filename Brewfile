@@ -10,6 +10,9 @@ tap 'mongodb/brew'
 
 tap 'AdoptOpenJDK/openjdk'
 
+tap 'aws/tap'
+
+
 brew 'python'
 brew 'ack'
 brew 'coreutils'
@@ -36,6 +39,7 @@ brew 'highlight'
 brew 'mosquitto'
 brew 'git-extras'
 brew 'awscli'
+brew 'aws-sam-cli'
 brew 'awsebcli'
 brew 'gpg'
 brew 'nginx-full', args: ["with-sub"]
