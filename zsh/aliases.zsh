@@ -44,6 +44,8 @@ alias sickrage-run='cd /Applications/SickRage && python /Applications/SickRage/S
 alias y='yarn'
 alias ya='yarn add'
 alias yad='yarn add -D'
+alias yat='npx lerna --scope=@vtexlab/gatsby-theme-instore-core add'
+alias yatd='npx lerna --scope=@vtexlab/gatsby-theme-instore-core add -D'
 alias yag='yarn global add'
 alias ys='yarn start'
 alias yj='yarn jest'
