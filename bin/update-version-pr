@@ -1,0 +1,14 @@
+#!/bin/sh
+
+VERSION=$(jq .version -r < ~/projetos/vtex/instore-core/packages/gatsby-theme-instore-core/package.json)
+
+git checkout -b "gatsby-theme-instore-core-$VERSION"
+
+yarn add "@vtexlab/gatsby-theme-instore-core@$VERSION"
+
+git add package.json yarn.lock
+git commit -m "chore(deps): bump @vtexlab/gatsby-theme-instore-core to $VERSION"
+
+git push -u origin "gatsby-theme-instore-core-$VERSION"
+
+gh pr create --title "Bumps @vtexlab/gatsby-theme-instore-core to $VERSION" --body="Updates @vtexlab/gatsby-theme-instore-core"
