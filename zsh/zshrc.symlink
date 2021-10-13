@@ -168,3 +168,6 @@ export VTEX_ENV="prod"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+
+# vtex/physical-fulfillment-server
+export PATH="$PATH:/Users/guilhermeheynemannbruzzi/projetos/vtex/physical-fulfillment-server/scripts"
