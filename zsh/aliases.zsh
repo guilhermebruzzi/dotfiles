@@ -17,6 +17,8 @@ alias flushgit="git checkout master && git branch --merged | egrep -v '(^\*|mast
 
 alias flushdns='dscacheutil -flushcache'
 
+alias retrigger='git commit -m "re-trigger checks" --allow-empty'
+
 alias mongodb='sudo mongod'
 
 # export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql56/5.6.27/lib
