@@ -7,4 +7,4 @@ yarn add "@vtexlab/gatsby-theme-instore-core@$VERSION"
 git add package.json yarn.lock
 git commit -m "chore(deps): bump @vtexlab/gatsby-theme-instore-core to $VERSION"
 
-git push -u origin "gatsby-theme-instore-core-$VERSION"
+git push
