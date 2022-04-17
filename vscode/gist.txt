@@ -1,2 +1,0 @@
-Gist: https://gist.github.com/guilhermebruzzi/4359c5ea8c51c52cddf2fa30673e2c24
-Secret: Email with github token

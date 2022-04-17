@@ -26,7 +26,6 @@ Run this:
 git clone https://github.com/guilhermebruzzi/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
-chsh -s /bin/zsh # link new zsh shell
 rm ~/.profile ~/.bashrc ~/.zprofile # Check any file in home that have a config other than your ~/.zshrc
 ```
 

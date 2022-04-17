@@ -1,6 +1,6 @@
 easy_install pip
-pip install virtualenv
-pip install pbr
-pip install --no-deps stevedore
-pip install --no-deps virtualenvwrapper
-pip install -r ./python/requirements.txt
+pip3 install virtualenv
+pip3 install pbr
+pip3 install --no-deps stevedore
+pip3 install --no-deps virtualenvwrapper
+pip3 install -r ./python/requirements.txt
