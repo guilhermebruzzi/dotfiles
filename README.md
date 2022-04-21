@@ -1,4 +1,4 @@
-## what's inside
+## What's inside
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
