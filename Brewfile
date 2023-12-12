@@ -41,6 +41,7 @@ brew 'aws-sam-cli'
 brew 'awsebcli'
 brew 'gpg'
 brew 'gh'
+brew 'pnpm'
 brew 'nginx-full', args: ["with-sub"]
 
 
