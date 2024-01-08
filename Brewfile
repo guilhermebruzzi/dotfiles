@@ -49,6 +49,7 @@ brew 'nginx-full', args: ["with-sub"]
 # cask 'iterm2'
 # cask 'caffeine'
 cask 'adoptopenjdk/openjdk/adoptopenjdk8'
+cask '1password'
 cask 'android-studio'
 cask 'copyq'
 cask 'docker'
