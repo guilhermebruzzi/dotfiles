@@ -8,8 +8,6 @@ tap 'denji/nginx'
 
 tap 'mongodb/brew'
 
-tap 'AdoptOpenJDK/openjdk'
-
 tap 'aws/tap'
 
 brew 'yarn'
@@ -48,7 +46,7 @@ brew 'nginx-full', args: ["with-sub"]
 # cask 'google-chrome'
 # cask 'iterm2'
 # cask 'caffeine'
-cask 'adoptopenjdk/openjdk/adoptopenjdk8'
+cask 'temurin'
 cask '1password'
 cask 'android-studio'
 cask 'copyq'
