@@ -40,8 +40,8 @@ brew 'awsebcli'
 brew 'gpg'
 brew 'gh'
 brew 'pnpm'
+brew 'virtualenvwrapper'
 brew 'nginx-full', args: ["with-sub"]
-
 
 # cask 'google-chrome'
 # cask 'iterm2'
@@ -72,4 +72,5 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'vysor'
+cask 'zulu17'
 # cask 'zoomus'
