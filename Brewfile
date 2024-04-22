@@ -10,6 +10,8 @@ tap 'mongodb/brew'
 
 tap 'aws/tap'
 
+tap 'leoafarias/fvm'
+
 brew 'yarn'
 brew 'python'
 brew 'ack'
@@ -42,6 +44,7 @@ brew 'gh'
 brew 'pnpm'
 brew 'virtualenvwrapper'
 brew 'nginx-full', args: ["with-sub"]
+brew 'fvm'
 
 # cask 'google-chrome'
 # cask 'iterm2'
