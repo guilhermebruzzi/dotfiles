@@ -166,3 +166,11 @@ esac
 
 # Java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/guilhermebruzzi/.dart-cli-completion/zsh-config.zsh ]] && . /Users/guilhermebruzzi/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+export GPG_TTY=$(tty)
