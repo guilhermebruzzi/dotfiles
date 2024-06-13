@@ -1,3 +1,9 @@
-if ! command -v nvm 2>/dev/null; then
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
-fi
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+
+asdf install nodejs latest
+
+asdf global nodejs latest
+
+corepack enable
+corepack prepare yarn@stable --activate
+asdf reshim nodejs
