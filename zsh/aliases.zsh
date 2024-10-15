@@ -54,3 +54,6 @@ alias yse='yarn example:start'
 alias yj='yarn jest'
 alias yt='yarn test'
 alias yw='yarn test:watch'
+
+# Cursor as vscode
+alias code='/usr/local/bin/cursor'
