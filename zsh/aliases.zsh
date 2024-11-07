@@ -19,6 +19,8 @@ alias flushdns='dscacheutil -flushcache'
 
 alias retrigger='git commit -m "re-trigger checks" --allow-empty'
 
+alias ghpr='gh pr create --fill -B main'
+
 alias mongodb='sudo mongod'
 
 # export DYLD_LIBRARY_PATH=/usr/local/Cellar/mysql56/5.6.27/lib
@@ -38,10 +40,6 @@ alias simplehttpserver='python -m http.server 8080' # python3+
 alias simplehttpserver2='python -m SimpleHTTPServer 8080' # python 2.7+
 
 alias conflicts='code $(git diff --name-only | uniq)'
-
-alias vtexwork='npm install -g vtex && vtex workspace reset -y && vtex config set env prod && vtex link --verbose'
-
-alias sickrage-run='cd /Applications/SickRage && python /Applications/SickRage/SiCKRAGE.py -p 8091'
 
 alias y='yarn'
 alias ya='yarn add'
