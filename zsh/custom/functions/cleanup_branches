@@ -1,0 +1,16 @@
+#!/bin/sh
+cleanup_branches() {
+  # Update remote-tracking branches and prune deleted ones
+  git fetch --prune
+
+  # List all branches with their upstream status (-vv)
+  # Filter branches that are either marked as 'gone' (do not exist on remote) or are merged
+  # Exclude current branch, master, and main branches
+  # Delete each branch individually
+  # Delete branches that are gone or merged
+  git branch -vv | grep -E '(: gone]|merged)' | grep -vE '(^\*|master|main)' | awk '{print $1}' | xargs -r git branch -D
+
+  # Delete local branches that don't exist on remote
+  git branch -vv | awk '/^[^*]/ && !/\[origin\// {print $1}' | grep -vE '(master|main)' | xargs -r git branch -D
+}
+
