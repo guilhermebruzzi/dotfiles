@@ -20,6 +20,7 @@
         df = diff
         ps = push
         pl = pull --rebase
+        cleanup = "!git branch --merged | grep -v -E '(^\\*|master|main|dev)' | xargs git branch -d"
 [branch]
         autosetupmerge = true
 [branch "master"]
