@@ -46,6 +46,7 @@ brew 'virtualenvwrapper'
 brew 'nginx-full', args: ["with-sub"]
 brew 'fvm'
 brew 'comby'
+brew '1password-cli'
 
 # cask 'google-chrome'
 # cask 'iterm2'
