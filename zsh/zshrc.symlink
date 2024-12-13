@@ -129,6 +129,7 @@ export USE_GLOBAL_ADK=t
 # Go
 export GOPATH=$PROJECTS/go
 export PATH="$GOPATH/bin:$PATH"
+export GOPRIVATE=github.com/nsxbet/*,github.com/NSXBet/*
 
 # Docker
 export DOCKER_ID_USER="guilhermebruzzi"
