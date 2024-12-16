@@ -43,10 +43,13 @@ brew 'gpg'
 brew 'gh'
 brew 'pnpm'
 brew 'virtualenvwrapper'
-brew 'nginx-full', args: ["with-sub"]
-brew 'fvm'
 brew 'comby'
-brew '1password-cli'
+brew 'asdf'
+# brew 'fvm'
+# brew 'zulu17'
+# brew '1password-cli'
+# brew 'nginx-full', args: ["with-sub"]
+
 
 # cask 'google-chrome'
 # cask 'iterm2'
@@ -72,6 +75,4 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'vysor'
-cask 'zulu17'
-cask 'asdf'
 cask 'cursor'
