@@ -78,3 +78,4 @@ cask 'vlc'
 cask 'vysor'
 cask 'cursor'
 cask 'charles'
+cask 'zulu@17' # Follow: https://reactnative.dev/docs/set-up-your-environment?platform=android#installing-dependencies
