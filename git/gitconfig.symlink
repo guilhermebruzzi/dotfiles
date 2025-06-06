@@ -40,6 +40,7 @@
         logallrefupdates = true
         whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	pager = less -FRX --mouse
+	ignorecase = false
 [help]
         browser = open
 [apply]
