@@ -164,3 +164,6 @@ export GPG_TTY=$(tty)
 . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
 
 . "/opt/homebrew/opt/asdf/etc/bash_completion.d/asdf"
+
+# Cursor code cli
+export PATH="$HOME/.local/bin:$PATH"
