@@ -7,3 +7,5 @@ asdf global nodejs latest
 corepack enable
 corepack prepare yarn@stable --activate
 asdf reshim nodejs
+
+npm install -g @anthropic-ai/claude-code
