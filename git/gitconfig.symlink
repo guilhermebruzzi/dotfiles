@@ -63,7 +63,7 @@
 [user]
 	email = guibruzzi@gmail.com
 	name = Guilherme Bruzzi
-	signingkey = F9B913F39905F2AB
+	signingkey = 2D47EDB6DFD5CF11
 [init]
 	defaultBranch = main
 [commit]

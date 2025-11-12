@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-
 tap 'heroku/brew'
 
 tap 'denji/nginx'
@@ -69,9 +67,6 @@ cask 'mongodb-compass'
 cask 'kap'
 cask 'pgadmin4'
 cask 'postman'
-cask 'sequel-pro'
-cask 'shiftit'
-cask 'skype'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
