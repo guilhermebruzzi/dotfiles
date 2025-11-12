@@ -1,11 +1,7 @@
-asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+mise use --global node@latest
 
-asdf install nodejs latest
-
-asdf global nodejs latest
-
-corepack enable
-corepack prepare yarn@stable --activate
-asdf reshim nodejs
+mise use -g usage
+mkdir -p ~/.local/share/bash-completion/completions/
+mise completion bash --include-bash-completion-lib > ~/.local/share/bash-completion/completions/mise
 
 npm install -g @anthropic-ai/claude-code

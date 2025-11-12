@@ -159,11 +159,9 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 
 export GPG_TTY=$(tty)
 
-# asdf
+# mise
 
-. "/opt/homebrew/opt/asdf/libexec/asdf.sh"
-
-. "/opt/homebrew/opt/asdf/etc/bash_completion.d/asdf"
+eval "$(mise activate bash)"
 
 # Cursor code cli
 export PATH="$HOME/.local/bin:$PATH"

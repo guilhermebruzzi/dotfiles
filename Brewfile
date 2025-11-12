@@ -10,7 +10,6 @@ tap 'aws/tap'
 
 tap 'leoafarias/fvm'
 
-brew 'yarn'
 brew 'python'
 brew 'ack'
 brew 'coreutils'
@@ -45,15 +44,8 @@ brew 'comby'
 brew 'asdf'
 brew 'gum'
 brew 'grpcurl'
-# brew 'fvm'
-# brew 'zulu17'
-# brew '1password-cli'
-# brew 'nginx-full', args: ["with-sub"]
+brew 'mise'
 
-
-# cask 'google-chrome'
-# cask 'iterm2'
-# cask 'caffeine'
 cask 'temurin'
 cask '1password'
 cask 'android-studio'
