@@ -44,6 +44,7 @@ brew 'comby'
 brew 'asdf'
 brew 'gum'
 brew 'grpcurl'
+brew 'op'
 brew 'mise'
 
 cask 'temurin'

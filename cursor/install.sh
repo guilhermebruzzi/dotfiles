@@ -90,10 +90,29 @@ confirm() {
 rsync_copy() {
   local src="$1"
   local dst="$2"
-  rsync -a --delete --human-readable --info=stats1,progress2 \
+  local -a opts=(-a --delete --human-readable)
+  if rsync_supports_info; then
+    opts+=(--info=stats1,progress2)
+  else
+    opts+=(--stats --progress)
+  fi
+  rsync "${opts[@]}" \
     --exclude "globalStorage/***" \
     --exclude "workspaceStorage/***" \
     "$src/" "$dst/"
+}
+
+rsync_supports_info() {
+  local version
+  version="$(rsync --version 2>/dev/null | awk 'NR==1 {print $3}')"
+  if [[ -z "$version" ]]; then
+    return 1
+  fi
+  local major="${version%%.*}"
+  if [[ "$major" -ge 3 ]]; then
+    return 0
+  fi
+  return 1
 }
 
 backup_local_user() {
