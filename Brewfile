@@ -45,6 +45,7 @@ brew 'asdf'
 brew 'gum'
 brew 'grpcurl'
 brew 'mise'
+brew 'k6'
 
 cask 'temurin'
 cask '1password'
@@ -68,3 +69,4 @@ cask 'cursor'
 cask 'charles'
 cask 'zulu@17' # Follow: https://reactnative.dev/docs/set-up-your-environment?platform=android#installing-dependencies
 cask 'zoom'
+cask 'figma'
