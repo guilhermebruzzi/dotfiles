@@ -1,0 +1,53 @@
+#!/bin/sh
+create_staging() {
+  if [ $# -eq 0 ]; then
+    echo "Usage: create_staging branch1 branch2 ... branchN" >&2
+    echo "Rebases branches on main and creates staging branch with all merged" >&2
+    return 1
+  fi
+
+  CURRENT_BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null || echo "")
+
+  echo "→ Switching to main and updating..."
+  git checkout main
+  git pull
+
+  # Rebase each branch on main
+  for branch in "$@"; do
+    echo ""
+    echo "→ Rebasing $branch on main..."
+    git checkout "$branch"
+    git rebase main
+    echo "→ Force pushing $branch..."
+    git push -u -f
+  done
+
+  echo ""
+  echo "→ Deleting old staging branch (if exists)..."
+  git checkout main
+  git branch -D staging 2>/dev/null || true
+  git push origin --delete staging 2>/dev/null || true
+
+  echo "→ Creating new staging branch from main..."
+  git checkout -b staging
+
+  # Merge all branches into staging
+  for branch in "$@"; do
+    echo ""
+    echo "→ Merging $branch into staging..."
+    git merge "$branch" --no-edit -m "Merge $branch into staging"
+  done
+
+  echo ""
+  echo "→ Force pushing staging..."
+  git push -u -f origin staging
+
+  echo ""
+  echo "✓ Done! Staging branch created with: $*"
+
+  # Try to return to original branch if it still exists
+  if [ -n "$CURRENT_BRANCH" ] && git show-ref --verify --quiet "refs/heads/$CURRENT_BRANCH"; then
+    git checkout "$CURRENT_BRANCH"
+  fi
+}
+
