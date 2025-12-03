@@ -1,0 +1,15 @@
+#!/bin/sh
+delete_remote_old_tags() {
+  REMOTE="origin"
+
+  echo "Fetching remote tags..."
+  git fetch --tags $REMOTE
+
+  echo "Deleting local tags matching pattern ^v[0-9]+\.[0-9]+\.[0-9]+$"
+  git tag -l "v*.*.*" | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | xargs -r git tag -d
+
+  echo "Deleting remote tags matching pattern ^v[0-9]+\.[0-9]+\.[0-9]+$"
+  git ls-remote --tags $REMOTE | awk '{print $2}' | sed 's|refs/tags/||' | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | xargs -r -I {} git push $REMOTE :refs/tags/{}
+
+  echo "Done! All old-pattern tags removed from local and remote."
+}
