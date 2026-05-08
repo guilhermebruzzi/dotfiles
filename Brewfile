@@ -46,6 +46,7 @@ brew 'gum'
 brew 'grpcurl'
 brew 'mise'
 brew 'k6'
+brew 'rtk'
 
 cask 'temurin'
 cask '1password'
